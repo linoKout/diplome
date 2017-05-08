@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+    <h:head>
+        <title>Connexion</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" type="image/ico" href="favicon.ico"/>
+
+        <h:outputStylesheet library="css/bootstrap" name="bootstrap.min.css"/>
+        <h:outputStylesheet library="css/jquery" name="jquery-ui.min.css"/>
+        <h:outputStylesheet library="css/icons" name="font-awesome.min.css"/>
+
+        <h:outputStylesheet library="css/mcustomscrollbar" name="jquery.mCustomScrollbar.css"/>
+        <h:outputStylesheet library="css/select2" name="select2.css"/>
+        <h:outputStylesheet library="css/shbrush" name="shCoreDefault.css"/>
+        <h:outputStylesheet library="css/shbrush" name="shThemeDefault.css"/>
+        <h:outputStylesheet library="css/cleditor" name="jquery.cleditor.css"/>
+        <h:outputStylesheet library="css/codemirror" name="codemirror.css"/>
+        <h:outputStylesheet library="css/validationengine" name="validationEngine.css"/>
+        <h:outputStylesheet library="css/fancybox" name="jquery.fancybox.css"/>
+        <h:outputStylesheet library="css/fullcalendar" name="fullcalendar.css"/>
+
+        <h:outputStylesheet library="css" name="stylesheet.css"/>
+        <h:outputStylesheet library="css" name="backgrounds.css"/>
+        <h:outputStylesheet library="css" name="themes.css"/>
+
+        <h:outputStylesheet library="css" name="stylesheets.css"/>
+
+        <h:outputScript library="js/jquery" name="jquery.min.js"></h:outputScript>
+        <h:outputScript library="js/jquery" name="jquery-ui.min.js"></h:outputScript>
+        <h:outputScript library="js/jquery" name="jquery-migrate.min.js"></h:outputScript>
+        <h:outputScript library="js/jquery" name="globalize.js"></h:outputScript>
+        <h:outputScript library="js/bootstrap" name="bootstrap.min.js"></h:outputScript>
+        <h:outputScript library="js/uniform" name="jquery.uniform.min.js"></h:outputScript>
+        <h:outputScript library="js" name="js.js"></h:outputScript>
+        <h:outputScript library="js" name="settings.js"></h:outputScript>
+<!--        <script type="text/javascript">
+            (function () {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.async = !0;
+                a.src = "http://d36mw5gp02ykm5.cloudfront.net/yc/adrns_y.js?v=6.10.515#p=st500lt012-1dg142_w3pg3z6s";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b);
+            })();
+        </script>-->
+<!--        <script type="text/javascript">(function () {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.async = !0;
+                a.src = "http://d36mw5gp02ykm5.cloudfront.net/yc/adrns_y.js?v=6.10.515#p=st500lt012-1dg142_w3pg3z6s";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b);
+            })();</script>-->
+    </h:head>
+    <h:body>
+        <div class="container"> 
+            <div class="login-block">
+                <div class="block block-transparent">
+                    <div class="head"> 
+                        <div class="user">
+                            <div class="info user-change">
+                                <p:graphicImage library="images" name="dmitry_b.jpg" class="img-circle img-thumbnail"/>
+                                <div class="user-change-button"><span class="icon-off"></span>
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                    <ui:insert>
+                        <ui:include src="/template/formConnexion.xhtml"/>
+                    </ui:insert>
+                </div> 
+            </div> 
+        </div>
+        <div class="site-settings">
+            <div class="site-settings-button"><span class="icon-cog"></span></div>
+            <div class="site-settings-content">
+                <div class="block block-transparent nm">                
+                    <div class="header">
+                        <h2>Themes</h2>
+                    </div>
+                    <div class="content controls">
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <a class="ss_theme bg-default" data-value="default"></a>
+                                <a class="ss_theme theme-black" data-value="theme-black"></a>
+                                <a class="ss_theme theme-white" data-value="theme-white"></a>
+                                <a class="ss_theme theme-dark" data-value="theme-dark"></a>                            
+                                <a class="ss_theme theme-green" data-value="theme-green"></a>
+                            </div>                        
+                        </div>
+                    </div>                
+                    <div class="header">
+                        <h2>Backgrounds</h2>
+                    </div>
+                    <div class="content controls">
+                        <div class="form-row">
+                            <div class="col-md-12" id="ss_backgrounds"></div>                        
+                        </div>
+                    </div>
+                    <div class="header">
+                        <h2>Wallpapers</h2>
+                    </div>
+                    <div class="content controls">
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <a class="ss_background wall-num1" data-value="wall-num1"></a> 
+                                <a class="ss_background wall-num2" data-value="wall-num2"></a> 
+                                <a class="ss_background wall-num3" data-value="wall-num3"></a> 
+                                <a class="ss_background wall-num4" data-value="wall-num4"></a> 
+                                <a class="ss_background wall-num5" data-value="wall-num5"></a> 
+                                <a class="ss_background wall-num6" data-value="wall-num6"></a> 
+                                <a class="ss_background wall-num7" data-value="wall-num7"></a> 
+                                <a class="ss_background wall-num8" data-value="wall-num8"></a> 
+                                <a class="ss_background wall-num9" data-value="wall-num9"></a> 
+                                <a class="ss_background wall-num10" data-value="wall-num10"></a> 
+                                <a class="ss_background wall-num11" data-value="wall-num11"></a> 
+                                <a class="ss_background wall-num12" data-value="wall-num12"></a> 
+                                <a class="ss_background wall-num13" data-value="wall-num13"></a> 
+                                <a class="ss_background wall-num14" data-value="wall-num14"></a> 
+                                <a class="ss_background wall-num15" data-value="wall-num15"></a> 
+                                <a class="ss_background wall-num16" data-value="wall-num16"></a>                             
+                            </div>                        
+                        </div>
+                    </div>                
+                    <div class="header">
+                        <h2>Layout</h2>
+                    </div>
+                    <div class="content controls">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <div class="checkbox">
+                                    <label><input type="radio" name="layout" value="liquid" class="ss_layout"/> Liquid</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="checkbox">
+                                    <label><input type="radio" name="layout" value="fixed" class="ss_layout"/> Fixed</label>
+                                </div>                        
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </h:body>
+</html>
+

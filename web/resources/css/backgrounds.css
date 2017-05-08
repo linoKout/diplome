@@ -1,0 +1,42 @@
+.bg-images-light-ltr{background:url('./images/background/light_ltr.png.xhtml') left top no-repeat #34a6c8}
+.bg-images-light-rtl{background:url('./images/background/light_rtl.png.xhtml') left top no-repeat #34a6c8}
+.bg-images-light{background:url('./images/background/light.png.xhtml') center top no-repeat #34a6c8}
+.bg-images-num0{background:url('./images/background/bt_cubs.png.xhtml') left top repeat #133959}
+.bg-images-num1{background:url('./images/bg_num1.jpg.xhtml') left top repeat-x #082648}
+.bg-images-num2{background:url('./images/background/bg_num2.jpg.xhtml') left top repeat-x #2d3245}
+.bg-images-num3{background:url('./images/background/bg_num3.jpg.xhtml') left top repeat-x #000}
+.bg-images-num4{background:url('./images/background/splash_blue.png.xhtml') center center no-repeat #2c5c82}
+.bg-images-num5{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #548cb2}
+.bg-images-num6{background:url('./images/background/light_ltr.png.xhtml') left top no-repeat #4b586b}
+.bg-images-num7{background:url('./images/background/light_rtl.png.xhtml') right top no-repeat #4e617f}
+.bg-images-num8{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #3a5363}
+.bg-images-num9{background:#333}
+.bg-images-num10{background:url('./images/background/bt_cubs.png.xhtml') center center repeat #212121}
+.bg-images-num11{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #333}
+.bg-images-num12{background:url('./images/background/splash_blue.png.xhtml') center center no-repeat #000e17}
+.bg-images-num13{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #111}
+.bg-images-num14{background:url('./images/background/light_ltr.png.xhtml') left top no-repeat #222}
+.bg-images-num15{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #666}
+.bg-images-num16{background:url('./images/background/light.png.xhtml') center top no-repeat #AAA}
+.bg-images-num17{background:url('./images/background/light.png.xhtml') center top no-repeat #629065}
+.bg-images-num18{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #003729}
+.bg-images-num19{background:url('./images/background/light_ltr.png.xhtml') left top no-repeat #6d8316}
+.bg-images-num20{background:url('./images/background/splash_white.png.xhtml') center center no-repeat #487737}
+.bg-images-num21{background:url('./images/background/bg_num4.jpg.xhtml') left top repeat-x #000}
+.bg-light{
+    background-image:url('./images/background/blight.png.xhtml');
+         background-position:center top;background-repeat:no-repeat
+}
+.bg-light-ltr{
+    background-image:url('./images/background/blight_ltr.png.xhtml');
+    background-position:left top;background-repeat:no-repeat
+}
+.bg-light-rtl{
+    background-image:url('./images/background/blight_rtl.png.xhtml');
+    background-position:right top;background-repeat:no-repeat
+}
+.bg-splash-white{
+    background-image:url('./images/background/splash_white.png.xhtml');
+    background-position:center top;background-repeat:no-repeat
+}
+.bg-splash-blue{background-image:url('./images/background/splash_blue.png.xhtml');background-position:center top;background-repeat:no-repeat}.bg-cubs{background:url('./images/background/bt_cubs.png.xhtml') left top repeat #222}.bg-white{background-color:#fff !important}.bg-lblue{background-color:#34a6c8 !important}.bg-blue{background-color:#2f80a6 !important}.bg-dblue,.bg-default{background-color:#133959 !important}.bg-turquoise{background-color:#40babd !important}.wall-num1{background:url('./images/wallpapers/wall_num1.jpg.xhtml') center top no-repeat fixed #000}.wall-num2{background:url('./images/wallpapers/wall_num2.jpg.xhtml') center top no-repeat fixed #000}.wall-num3{background:url('./images/wallpapers/wall_num3.jpg.xhtml') center top no-repeat fixed #000}.wall-num4{background:url('./images/wallpapers/wall_num4.jpg.xhtml') center top no-repeat fixed #000}.wall-num5{background:url('./images/wallpapers/wall_num5.jpg.xhtml') center top no-repeat fixed #000}.wall-num6{background:url('./images/wallpapers/wall_num6.jpg.xhtml') center top no-repeat fixed #000}.wall-num7{background:url('./images/wallpapers/wall_num7.jpg.xhtml') center top no-repeat fixed #000}.wall-num8{background:url('./images/wallpapers/wall_num8.jpg.xhtml') center top no-repeat fixed #000}.wall-num9{background:url('./images/wallpapers/wall_num9.jpg.xhtml') center top no-repeat fixed #000}.wall-num10{background:url('./images/wallpapers/wall_num10.jpg.xhtml') center top no-repeat fixed #000}.wall-num11{background:url('./images/wallpapers/wall_num11.jpg.xhtml') center top no-repeat fixed #000}.wall-num12{background:url('./images/wallpapers/wall_num12.jpg.xhtml') center top no-repeat fixed #000}.wall-num13{background:url('./images/wallpapers/wall_num13.jpg.xhtml') center top no-repeat fixed #000}.wall-num14{background:url('./images/wallpapers/wall_num14.jpg.xhtml') center top no-repeat fixed #000}.wall-num15{background:url('./images/wallpapers/wall_num15.jpg.xhtml') center top no-repeat fixed #000}.wall-num16{background:url('./images/wallpapers/wall_num16.jpg.xhtml') center top no-repeat fixed #000}.bg-dot10{background:rgba(0,0,0,0.1)}.bg-dot20{background:rgba(0,0,0,0.2)}.bg-dot30{background:rgba(0,0,0,0.3)}.bg-dot40{background:rgba(0,0,0,0.4)}.bg-dot50{background:rgba(0,0,0,0.5)}.bg-dot60{background:rgba(0,0,0,0.6)}.bg-dot70{background:rgba(0,0,0,0.7)}.bg-dot80{background:rgba(0,0,0,0.8)}.bg-dot90{background:rgba(0,0,0,0.9)}.bg-dot100{background:rgba(0,0,0,1)}.bg-wdot10{background:rgba(255,255,255,0.1)}.bg-wdot20{background:rgba(255,255,255,0.2)}.bg-wdot30{background:rgba(255,255,255,0.3)}.bg-wdot40{background:rgba(255,255,255,0.4)}.bg-wdot50{background:rgba(255,255,255,0.5)}.bg-wdot60{background:rgba(255,255,255,0.6)}.bg-wdot70{background:rgba(255,255,255,0.7)}.bg-wdot80{background:rgba(255,255,255,0.8)}.bg-wdot90{background:rgba(255,255,255,0.9)}.bg-wdot100{background:rgba(255,255,255,1)}

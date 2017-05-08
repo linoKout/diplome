@@ -1,0 +1,30 @@
+/*
+Theme Name: Graphene Child
+Theme URI: http://www.khairul-syahir.com/wordpress-dev/graphene-theme
+Description: Child theme for the graphene theme
+Version: 1.0
+Author: MAYEN Michel
+Author URI: http://www.lassipourlesnuls.fr
+Template: graphene
+*/
+
+/*@import url("../graphene/style.css");*/
+/*@import "../graphene/style.css";*/
+.entry-content p,
+.slider_items {
+	text-align: justify;
+	}
+
+.entry-content h2 {
+	text-indent: 5px;
+	color: #339;
+}
+.entry-content h3 {
+	text-indent: 15px;
+	color: #396;
+}
+.entry-content img,
+.child-page img {
+	border: 0px;
+        margin: 5px;
+}
